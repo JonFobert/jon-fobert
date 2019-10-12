@@ -65,7 +65,7 @@ h1 {
 }
 
 h3 {
-	font-size: 20px;
+	font-size: 18px;
 	text-align: center;
 	font-weight: 600;
 	margin: 0px 0px 5px 0px;
@@ -239,11 +239,11 @@ nav img {
 
 .frontEndCard, .cardBack {
 	box-sizing: border-box;
-	padding: 20px;
+	padding: 10px;
 }
 
 .frontEndCard h3, .cardBack h3 {
-	font-size: 20px;
+	font-size: 18px;
 }
 
 .frontEndCard ul, .cardBack ul {

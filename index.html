@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" >
+    <link rel='stylesheet' media='screen and (max-width: 750px)' href='./small.css' />
+    <link rel='stylesheet' media='screen and (min-width: 751px) and (max-width: 1299px)' href='./medium.css' />
+    <link rel="stylesheet" media='screen and (min-width: 1300px)' href='./main.css' />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#2b5797">
+<meta name="theme-color" content="#c8aaaa">
+    <title>Jon Fobert</title>
+</head>
+<body>
+    <nav>
+        <img src ="assets/logoLight.png" alt="Jon Fobert Logo" height = "50">
+        <ul id="navSections">
+            <li class= "skillLink">Skills</li>
+            <li class = "projectsLink">Projects</li>
+            <li class = "contactMeLink">Contact Me</li>
+        </ul>
+        <div class = "threeLine">
+            <div class = "menuClosed">&#9776;</div>
+            <div class = "menuOpen false">X</div>
+        </div>
+    </nav>
+    <div class = "threeLineMenu">
+        <ul id= "threeLineSections">
+            <li class= "skillLinkThreeLine">Skills</li>
+            <li class = "projectsLinkThreeLine">Projects</li>
+            <li class = "contactMeLinkThreeLine">Contact Me</li>
+        </ul>
+    </div>
+    
+    <div class="hero-image"></div>
+    <div class="name">
+        <div class = "heroText">
+            <p class = "heroName">Jon Fobert</p>
+            <p class = "heroTitle">Web Developer</p>
+        </div>
+    </div>
+    <span class="scrollArrow"></span>
+    <section id = "skills">
+        <div id = "skillsAnchor"></div>
+        <h1>Skills</h1>
+        <div class = "skillsCards">
+            <div class ="frontEndCard">
+                <h3>Front End</h3>
+                <ul>
+                    <li>HTML/CSS</li>
+                    <li>Javascript</li>
+                    <li>React</li>
+                </ul>
+            </div>
+            <div class= "backEndCard">
+                <div class = "cardInner">
+                    <div class = "cardFront">
+                    </div>
+                    <div class = "cardBack">
+                        <h3>Back End</h3>
+                        <ul>
+                            <li>Node</li>
+                            <li>Express</li>
+                            <li>MongoDB</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id = "projects">
+    <div id = "projectsAnchor"></div>
+        <h1>Projects</h1>
+        <div class = "flashCards">
+            <div class ="flashCardsText">
+                <h3>Flash Cards</h3>
+                <div class="buttons">
+                    <button class=website onclick="location.href='https://flash-cards-jon.herokuapp.com/'">Website</button>
+                    <button class=website onclick="location.href='https://github.com/JonFobert/flash-cards'">Code</button>
+                </div>
+                <p>
+                    Flash Cards is a full stack MERN app (MongoDB/Mongoose, Express, React, Node).
+                </p>
+                <br>
+                <p>
+                    React-transition-group is used to switch between cards. Two adjacent cards must be 
+                    displayed during the transition. To deal with this cards are split into even and odd
+                    components. During the transtion both an even and odd card will always be displayed.
+                </p>
+            </div>
+
+        <div class= "flashCardsImage">
+                <img src ="assets/flashCards.jpg" alt = "my flash cars website">
+            </div>
+        </div>
+        <div class = "volcanoRush">
+
+            <div class ="volcanoRushText">
+                <h3>Volcano Rush</h3>
+                <div class="buttons">
+                    <button class=website onclick="location.href='https://volcano-rush.herokuapp.com/'">Website</button>
+                    <button class=website onclick="location.href='https://github.com/JonFobert/Volcano-Rush'">Code</button>
+                </div>
+                <p>
+                    Volcano Rush is a full stack game. It uses vanilla JavaScript, EJS templating, Node,
+                    Express, and MongoDB/Mongoose. Zombies will maintain a fair distance between themselves
+                    and stop before lava.
+                </p>
+                <br>
+                <p>
+                    The player's unique ID and score are tracked in a database while they are playing. 
+                </p>
+            </div>
+            <div class= "volcanoRushImage">
+                    <img src ="assets/volcanoRush.jpg" alt = "my volcano rush game">
+            </div>
+            
+        </div>
+        <div class = "mountainData">
+                
+                <div class ="mountainDataText">
+                    <h3>Mountain Data</h3>
+                    <div class="buttons">
+                        <button class=website onclick="location.href='https://mountain-data.herokuapp.com/'">Website</button>
+                        <button class=website onclick="location.href='https://github.com/JonFobert/MountainData'">Code</button>
+                    </div>
+                    <p>
+                        Mountain Data uses React, React-transition-group for animation, and Uber's react-vis
+                        for creating graphs. Mountain data is a graphing tool for New England Ski areas. It compares the vertical feet, price, and driving disance from 
+                        Boston.
+                    </p>
+                </div>
+                <div class= "mountainDataImage">
+                        <img src ="assets/neSkiVisualizer.jpg" alt = "my Mountain Data app">
+                </div>
+            </div>
+    </section>
+    <section id="contactMe">
+        <div id = "contactMeAnchor"></div>
+        <h1>Contact Me</h1>
+        <p>I'd love to hear from you.</p>
+        <br>
+        <a href = "https://www.linkedin.com/in/jonathan-fobert-632ba1aa/"><img src ="assets/linkedIn.png" href="www.linkedin.com/in/jonathan-fobert-632ba1aa" alt="LinkedIn" height = "50"></a>
+        <a href = "mailto:jonrfobert@gmail.com"><img src ="assets/gMail.png" alt="email" height = "50"></a>
+    </section>
+    
+
+    <script type ="text/javascript" src="script.js"></script>
+</body>
+</html>

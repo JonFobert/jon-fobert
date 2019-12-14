@@ -78,18 +78,18 @@ p {
 button {
 	font-size: 12px;
 	background: transparent;
-	color: #EFEFEF;
+	color: #FFFFFF;
 	font-weight: 400;
 	border-width: 3px;
 	border-radius: 8px;
-	border-color: #EFEFEF;
+	border-color: #FFFFFF;
 	padding: 5px 5px 5px 5px;
 	margin: 0px 5px 5px 5px;
 	width: 75px
 }
 button:hover {
 	color: #4A4E69;
-	background-color: #EFEFEF;
+	background-color: #FFFFFF;
 }
 .buttons {
 	text-align: center;
@@ -220,7 +220,7 @@ nav img {
 
 #skills {
 	position: relative;
-	background-color: #EFEFEF;
+	background-color: #FFFFFF;
 	color: black;
 	padding: 40px 5% 40px 5%;
 }
@@ -248,7 +248,7 @@ nav img {
 
 .frontEndCard ul, .cardBack ul {
 	font-size: 14px;
-	list-style-type: 
+	text-align: center;
 }
 
 .frontEndCard {
@@ -323,7 +323,7 @@ nav img {
 	position: relative;
 	padding: 40px 5%;
 	background-color: #B2675E;
-	color: #EFEFEF;
+	color: #FFFFFF;
 }
 
 #projectsAnchor {
@@ -426,7 +426,7 @@ nav img {
 
 #contactMe {
 	position: relative;
-	background-color: #EFEFEF;
+	background-color: #FFFFFF;
 	color: black;
 	padding: 40px 5%;
 	height: 400px;

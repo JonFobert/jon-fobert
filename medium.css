@@ -74,18 +74,18 @@ h3 {
 button {
 	font-size: 24px;
 	background: transparent;
-	color: #EFEFEF;
+	color: #FFFFFF;
 	font-weight: 400;
 	border-width: 3px;
 	border-radius: 8px;
-	border-color: #EFEFEF;
+	border-color: #FFFFFF;
 	padding: 10px 10px 10px 10px;
 	margin: 0px 20px 10px 0px;
 	width: 150px
 }
 button:hover {
 	color: #4A4E69;
-	background-color: #EFEFEF;
+	background-color: #FFFFFF;
 }
 .buttons {
 	text-align: center;
@@ -189,7 +189,7 @@ nav img {
 
 #skills {
 	position: relative;
-	background-color: #EFEFEF;
+	background-color: #FFF;
 	color: black;
 	padding: 40px 2% 40px 2%;
 }
@@ -216,7 +216,7 @@ nav img {
 
 .frontEndCard ul, .cardBack ul {
 	font-size: 24px;
-	list-style-type: 
+	text-align: center;
 }
 
 .frontEndCard {
@@ -293,7 +293,7 @@ nav img {
 	position: relative;
 	padding: 40px 5%;
 	background-color: #B2675E;
-	color: #EFEFEF;
+	color: #FFFFFF;
 }
 
 #projectsAnchor {
@@ -397,7 +397,7 @@ nav img {
 
 #contactMe {
 	position: relative;
-	background-color: #EFEFEF;
+	background-color: #FFF;
 	color: black;
 	padding: 40px 5%;
 	height: 400px;

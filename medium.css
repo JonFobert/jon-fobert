@@ -222,7 +222,7 @@ nav img {
 .frontEndCard {
 	width: 400px;
 	height: 300px;
-	transition: box-shadow ease-in 0.5s;
+	transition: box-shadow box-shadow cubic-bezier(0.55, 0.06, 0.68, 0.19) 0.5s
 }
 
 .frontEndCard h3 {

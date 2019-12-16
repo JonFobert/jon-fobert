@@ -196,9 +196,10 @@ nav img {
 }
 .skillsCards {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
-	align-items: flex-start;
-	margin-bottom: 200px;
+	align-items: center;
+	margin-bottom: 60px;
 }
 
 .frontEndCard, .cardBack {
@@ -219,7 +220,7 @@ nav img {
 }
 
 .frontEndCard {
-	width: 400px;
+	width: 450px;
 	height: 300px;
 	transition: box-shadow ease-in 0.3s;
 }
@@ -234,8 +235,8 @@ nav img {
 
 .backEndCard {
 	height: 300px;
-	margin-left: 100px;
-	width: 400px;
+	width: 450px;
+	margin-top: 50px;
 	perspective: 1000px;
 	z-index: 2;
 }

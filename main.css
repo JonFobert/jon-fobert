@@ -304,8 +304,8 @@ nav img {
 	text-align: center;
 	left: 100%;
 	position: relative;
-	width: 45%;
-	padding-left: 10px;
+	width: 35%;
+	padding-left: 100px;
 }
 
 #projects img {
@@ -316,8 +316,12 @@ nav img {
 	text-align: left;
 	right: 100%;
 	position: relative;
-	width: 45%;
-	padding-right: 10px;
+	width: 35%;
+	padding-right: 100px;
+}
+
+.flashCardsText h3, .volcanoRushText h3, .mountainDataText h3{
+	text-align: left;
 }
 
 /******Animations*******/

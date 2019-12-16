@@ -105,7 +105,7 @@ max-height: 100%;
 
 nav {
 	z-index: 3;
-	box-shadow: 0px 10px 30px #00000085;
+	box-shadow: 0px 0px 7px 1px rgba(0,0,0,.4);
 	position: fixed;
 	width: 100vw;
 	display: flex;
@@ -213,11 +213,6 @@ nav img {
 	100% { bottom:40px;}
 }
 
-#eloquentJSLink {
-	color: black;
-	text-decoration: underline;
-}
-
 #skills {
 	position: relative;
 	background-color: #FFFFFF;
@@ -249,12 +244,15 @@ nav img {
 .frontEndCard ul, .cardBack ul {
 	font-size: 14px;
 	text-align: center;
+	margin-top: 20px;
+	line-height: 2;
 }
 
 .frontEndCard {
 	width: 150px;
 	height: 200px;
-	transition: box-shadow ease-in 0.5s;
+	box-shadow: 0 2px 8px rgba(0,0,0,.3);
+	transition: box-shadow ease-in 0.3s;
 }
 
 .frontEndCard h3 {
@@ -262,7 +260,7 @@ nav img {
 }
 
 .poppedOut .frontEndCard {
-	box-shadow: 3px 3px 7px 4px rgba(0,0,0,.4)
+	box-shadow: 0 2px 8px rgba(0,0,0,.3);
 }
 
 .backEndCard {
@@ -292,7 +290,7 @@ nav img {
 	height: 100%;
 	backface-visibility: hidden;
 	-webkit-backface-visibility: hidden;
-	transition: box-shadow ease-in 0.5s;
+	transition: box-shadow ease-in 0.3s;
 }
 
 .cardBack {
@@ -305,7 +303,7 @@ nav img {
 }
 
 .poppedOut .cardFront, .poppedOut .cardBack {
-	box-shadow: 3px 3px 7px 4px rgba(0,0,0,.4)
+	box-shadow: 0 2px 8px rgba(0,0,0,.3);
 }
 
 .background {
@@ -347,7 +345,7 @@ nav img {
 }
 
 #projects img {
-	box-shadow: 3px 3px 7px 4px rgba(0,0,0,.4)
+	box-shadow: 0 2px 8px rgba(0,0,0,.5)
 }
 
 .flashCardsText, .volcanoRushText, .mountainDataText{

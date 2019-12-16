@@ -100,7 +100,7 @@ max-height: 100%;
 
 nav {
 	z-index: 3;
-	box-shadow: 0px 10px 30px #00000085;
+	box-shadow: 0px 0px 7px 1px rgba(0,0,0,.4);
 	position: fixed;
 	width: 100vw;
 	display: flex;
@@ -146,7 +146,7 @@ nav img {
 	position: absolute;
 	text-align: center;
 	width: 80%;
-	top: 180px;
+	top: 250px;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	z-index: 2;
@@ -183,7 +183,7 @@ nav img {
 
 #skills {
 	position: relative;
-	background-color: #fff;
+	background-color: #ffffff;
 	color: #2A2D34;
 	padding: 40px 5%;
 }
@@ -197,7 +197,7 @@ nav img {
 	display: flex;
 	justify-content: center;
 	align-items: flex-start;
-	margin-bottom: 200px;
+	margin-bottom: 100px;
 }
 
 .frontEndCard, .cardBack {
@@ -206,14 +206,16 @@ nav img {
 }
 
 .frontEndCard ul, .cardBack ul {
-	font-size: 32px;
+	font-size: 25px;
 	text-align: center;
+	margin-top: 51px;
+    line-height: 2;
 }
 
 .frontEndCard {
 	width: 600px;
 	height: 400px;
-	transition: box-shadow ease-in 0.5s;
+	transition: box-shadow ease-in 0.3s;
 }
 
 .frontEndCard h3 {
@@ -221,7 +223,7 @@ nav img {
 }
 
 .poppedOut .frontEndCard {
-	box-shadow: 3px 3px 7px 4px rgba(0,0,0,.4)
+	box-shadow: 0 2px 8px rgba(0,0,0,.3)
 }
 
 .backEndCard {
@@ -236,7 +238,7 @@ nav img {
 	position: relative;
 	width: 100%;
 	height: 100%;
-	transition: transform 0.6s 1.2s;
+	transition: transform 0.4s 0.8s;
 	transform-style: preserve-3d;
 }
   
@@ -251,7 +253,7 @@ nav img {
 	height: 100%;
 	backface-visibility: hidden;
 	-webkit-backface-visibility: hidden;
-	transition: box-shadow ease-in 0.5s;
+	transition: box-shadow ease-in 0.3s;
 }
 
 .cardBack {
@@ -264,7 +266,7 @@ nav img {
 }
 
 .poppedOut .cardFront, .poppedOut .cardBack {
-	box-shadow: 3px 3px 7px 4px rgba(0,0,0,.4)
+	box-shadow: 0 2px 8px rgba(0,0,0,.3)
 }
 
 .background {
@@ -282,7 +284,7 @@ nav img {
 	position: relative;
 	padding: 40px 5%;
 	background-color: #B2675E;
-	color: #EFEFEF;
+	color: #FFFFFF;
 }
 
 #projectsAnchor {
@@ -294,7 +296,7 @@ nav img {
 	display: flex;
 	justify-content: center;
 	align-items: flex-start;
-	margin-bottom: 200px;
+	margin-bottom: 100px;
 }
 
 .flashCardsImage, .volcanoRushImage, .mountainDataImage{
@@ -307,7 +309,7 @@ nav img {
 }
 
 #projects img {
-	box-shadow: 3px 3px 7px 4px rgba(0,0,0,.4)
+	box-shadow: 0 2px 8px rgba(0,0,0,.5)
 }
 
 .flashCardsText, .volcanoRushText, .mountainDataText{
